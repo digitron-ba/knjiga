@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kad osvaneš sam | Emir Bektić</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+    />
+    <meta
+      name="description"
+      content="kad osvaneš sam, emir bektić, knjiga, srebrenica, genocid"
+    />
+    <meta
+      name="keywords"
+      content="digitron.ba, web development, adis ustovic, web design, design"
+    />
+    <meta name="author" content="digitron.ba" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/glitch-slideshow.css" />
+    <script>
+      document.documentElement.className = "js";
+      var supportsCssVars = function() {
+        var e,
+          t = document.createElement("style");
+        return (
+          (t.innerHTML = "root: { --tmp-var: bold; }"),
+          document.head.appendChild(t),
+          (e = !!(
+            window.CSS &&
+            window.CSS.supports &&
+            window.CSS.supports("font-weight", "var(--tmp-var)")
+          )),
+          t.parentNode.removeChild(t),
+          e
+        );
+      };
+      supportsCssVars() ||
+        alert(
+          "Please view this demo in a modern browser that supports CSS Variables."
+        );
+    </script>
+  </head>
+
+  <body class="demo-2 loading">
+    <main>
+      <div class="content content--fixed d-none">
+        <p class="info">
+          Developed by
+          <a href="https://www.digitron.ba">&copy;www.digitron.ba</a>
+        </p>
+      </div>
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbarCollapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a href="https://www.facebook.com/KadOsvanesSam/"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a href="index.html" class="nav-link">Početna</a>
+              </li>
+              <li class="nav-item">
+                <a href="bio.html" class="nav-link">Biografija</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link">Kontakt</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="content">
+        <div class="slides slides--contained effect-2">
+          <div class="slide slide--current">
+            <div
+              class="slide__img glitch"
+              style="background-image: url(img/sam.jpg);"
+            ></div>
+            <div class="slide__text">
+              <h2 class="slide__title">Emir Bektić</h2>
+
+              <p class="slide__description">
+                Ostali su samo tragovi na srcu, u duši i mislima s vama. Ostali
+                su veoma svježi vaši tragovi u mom životu i biće tu sve dok sam
+                živ, jer ih brižljivo čuvam u svom srcu i duši.
+              </p>
+            </div>
+          </div>
+          <div class="slide">
+            <div
+              class="slide__img glitch"
+              style="background-image: url(img/sam2.jpg);"
+            ></div>
+            <div class="slide__text">
+              <h2 class="slide__title">Emir Bektić</h2>
+              <p class="slide__description">
+                Slike su svjedoci prošlosti u velikom dijelu za mene. Kad
+                govorim o slikama i njihovoj vrijednosti, prvenstveno mislim na
+                slike mojih roditelja, porodice, komšija, poznanika, školskih
+                drugova...
+              </p>
+            </div>
+          </div>
+          <div class="slide">
+            <div
+              class="slide__img glitch"
+              style="background-image: url(img/sam3.jpg);"
+            ></div>
+            <div class="slide__text">
+              <h2 class="slide__title">Emir Bektić</h2>
+              <p class="slide__description">
+                Početak agresije, donio je i veliki progon Bošnjaka Istočne
+                Bosne. Masovna ubijanja, zarobljavanja, paljenja kuća, stanova,
+                protjerivanje naroda sa svojih ognjišta... Drina je opet krvava
+                tekla.
+              </p>
+            </div>
+          </div>
+        </div>
+        <nav class="slide-nav">
+          <button class="slide-nav__button"><span>NAZAD</span></button>
+          <button class="slide-nav__button"><span>NAPRIJED</span></button>
+        </nav>
+      </div>
+
+      <section id="book-section" class="bg-light text-muted py-5">
+        <div class="container">
+          <h3 id="first-title">ZAŠTO PIŠEM</h3>
+          <div class="row">
+            <div class="col-md-7">
+              <p class="book-description">
+                Pišem jer je to jedan od načina da se ne zaboravi i ne ponovi
+                genocid u Srebrenici. Ova moja priča je moj lični doprinos tome,
+                moje svjedočenje o dešavanjima u julu 1995. godine, uglavnom, za
+                buduće generacije, kao i one koji malo ili nikako ne govore o
+                tome. Uspjeh će biti, samo ako jedna osoba koja pročita moju
+                knjigu shvati i izvuče pouku o genocide nad Bošnjacima. Pišem
+                jer vječno ostaje ono što je zapisano, kao i što postoji izreka,
+                sve što nije zapisano kao i da se nije desilo. Mnogo više
+                trebamo pisati i nedozvoliti da istina izblijedi o tome, šta se
+                desilo na prostoru Bosne i Hercegovine krajem 20-tog stoljeća.
+                Pišem jer imam potrebu da moju priču podijelim sa drugima, a to
+                nije nimalo lahko. Znao sam da je teško pisati, ...
+              </p>
+              <a href="zasto-pisem.html" class="btn btn-outline-dark"
+                >Opširnije</a
+              >
+            </div>
+            <div class="col-md-5 m-auto">
+              <img
+                src="img/knjiga.jpg"
+                width="300"
+                height="300"
+                alt="knjiga"
+                class="img-fluid mb-3 mx-auto d-block rounded-circle"
+              />
+              <a href="contact.html" class="order btn btn-outline-success"
+                >Naruči</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- THOUGHTS -->
+      <section id="testimonials" class="p-4 bg-dark text-white">
+        <div class="container">
+          <h2 class="text-left">Misli</h2>
+          <div class="row text-center">
+            <div class="col">
+              <div class="slider">
+                <div>
+                  <blockquote class="blockquote">
+                    <p class="mb-0">
+                      Važno je njegovati kulturu sjećanja, samo tako možemo
+                      otrgnuti od zaborava sve ono što se desilo u periodu
+                      agresije, genocida.
+                    </p>
+                    <footer class="blockquote-footer">Emir Bektić</footer>
+                  </blockquote>
+                </div>
+                <div>
+                  <blockquote class="blockquote">
+                    <p class="mb-0">
+                      Uspomene na roditelje, na djetinjstvo ne vraćaju me samo u
+                      prošlost nego i daju snagu da nastavim dalje.
+                    </p>
+                    <footer class="blockquote-footer">Emir Bektić</footer>
+                  </blockquote>
+                </div>
+                <div>
+                  <blockquote class="blockquote">
+                    <p class="mb-0">
+                      Gubiti je teško, bez obzira šta se gubi, ali ipak
+                      najbolniji su oni gubitci koje više nikad ne možeš
+                      nadomjestiti.
+                    </p>
+                    <footer class="blockquote-footer">Emir Bektić</footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIDEO PLAY -->
+      <section id="video-play">
+        <div class="dark-overlay">
+          <div class="row">
+            <div class="col">
+              <div class="container p-5">
+                <a
+                  href="#"
+                  class="video"
+                  data-video="https://www.youtube.com/embed/KAifU-bsSOw"
+                  data-toggle="modal"
+                  data-target="#videoModal"
+                >
+                  <i class="fas fa-play fa-3x"></i>
+                </a>
+                <h1>Promocija knjige Emira Bektića "Kad osvaneš sam"</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIDEO MODAL -->
+      <div class="modal fade" id="videoModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button class="close" data-dismiss="modal">
+                <span>&times;</span>
+              </button>
+              <iframe
+                src=""
+                frameborder="0"
+                height="350"
+                width="100%"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="main-footer" class="text-center p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p class="info-footer">
+              "Kad osvaneš sam" - Emir Bektić - 2018
+              <a href="https://www.digitron.ba">by &copy;www.digitron.ba</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/demo.js"></script>
+    <script src="js/demo2.js"></script>
+  </body>
+</html>
